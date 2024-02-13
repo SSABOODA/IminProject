@@ -16,6 +16,14 @@
 		F7F82C5A2B7B90BB00C4D079 /* IminProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F82C592B7B90BB00C4D079 /* IminProjectTests.swift */; };
 		F7F82C642B7B90BB00C4D079 /* IminProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F82C632B7B90BB00C4D079 /* IminProjectUITests.swift */; };
 		F7F82C662B7B90BB00C4D079 /* IminProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F82C652B7B90BB00C4D079 /* IminProjectUITestsLaunchTests.swift */; };
+		F7F82C742B7B90E500C4D079 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = F7F82C732B7B90E500C4D079 /* SnapKit */; };
+		F7F82C772B7B90FC00C4D079 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = F7F82C762B7B90FC00C4D079 /* RxCocoa */; };
+		F7F82C792B7B90FC00C4D079 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F7F82C782B7B90FC00C4D079 /* RxSwift */; };
+		F7F82C7C2B7B918800C4D079 /* StorePromotionPreviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F82C7B2B7B918800C4D079 /* StorePromotionPreviewController.swift */; };
+		F7F82C7F2B7B91C400C4D079 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F82C7E2B7B91C400C4D079 /* BaseViewController.swift */; };
+		F7F82C822B7B952C00C4D079 /* StorePromotionProfleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F82C812B7B952C00C4D079 /* StorePromotionProfleView.swift */; };
+		F7F82C842B7B954400C4D079 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F82C832B7B954400C4D079 /* BaseView.swift */; };
+		F7F82C862B7BA51900C4D079 /* PromotionStartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F82C852B7BA51900C4D079 /* PromotionStartButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +57,11 @@
 		F7F82C5F2B7B90BB00C4D079 /* IminProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IminProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7F82C632B7B90BB00C4D079 /* IminProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IminProjectUITests.swift; sourceTree = "<group>"; };
 		F7F82C652B7B90BB00C4D079 /* IminProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IminProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F7F82C7B2B7B918800C4D079 /* StorePromotionPreviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorePromotionPreviewController.swift; sourceTree = "<group>"; };
+		F7F82C7E2B7B91C400C4D079 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		F7F82C812B7B952C00C4D079 /* StorePromotionProfleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorePromotionProfleView.swift; sourceTree = "<group>"; };
+		F7F82C832B7B954400C4D079 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		F7F82C852B7BA51900C4D079 /* PromotionStartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromotionStartButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +69,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7F82C792B7B90FC00C4D079 /* RxSwift in Frameworks */,
+				F7F82C772B7B90FC00C4D079 /* RxCocoa in Frameworks */,
+				F7F82C742B7B90E500C4D079 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,12 +115,14 @@
 		F7F82C412B7B90B700C4D079 /* IminProject */ = {
 			isa = PBXGroup;
 			children = (
+				F7F82C7D2B7B91B800C4D079 /* Base */,
+				F7F82C7A2B7B916600C4D079 /* PromotionPreViews */,
 				F7F82C422B7B90B700C4D079 /* AppDelegate.swift */,
 				F7F82C442B7B90B700C4D079 /* SceneDelegate.swift */,
 				F7F82C462B7B90B700C4D079 /* ViewController.swift */,
 				F7F82C482B7B90B700C4D079 /* Main.storyboard */,
-				F7F82C4B2B7B90BA00C4D079 /* Assets.xcassets */,
 				F7F82C4D2B7B90BA00C4D079 /* LaunchScreen.storyboard */,
+				F7F82C4B2B7B90BA00C4D079 /* Assets.xcassets */,
 				F7F82C502B7B90BA00C4D079 /* Info.plist */,
 			);
 			path = IminProject;
@@ -127,6 +145,33 @@
 			path = IminProjectUITests;
 			sourceTree = "<group>";
 		};
+		F7F82C7A2B7B916600C4D079 /* PromotionPreViews */ = {
+			isa = PBXGroup;
+			children = (
+				F7F82C802B7B950E00C4D079 /* ReusableCustomView */,
+				F7F82C7B2B7B918800C4D079 /* StorePromotionPreviewController.swift */,
+			);
+			path = PromotionPreViews;
+			sourceTree = "<group>";
+		};
+		F7F82C7D2B7B91B800C4D079 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				F7F82C7E2B7B91C400C4D079 /* BaseViewController.swift */,
+				F7F82C832B7B954400C4D079 /* BaseView.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		F7F82C802B7B950E00C4D079 /* ReusableCustomView */ = {
+			isa = PBXGroup;
+			children = (
+				F7F82C812B7B952C00C4D079 /* StorePromotionProfleView.swift */,
+				F7F82C852B7BA51900C4D079 /* PromotionStartButtonView.swift */,
+			);
+			path = ReusableCustomView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +188,11 @@
 			dependencies = (
 			);
 			name = IminProject;
+			packageProductDependencies = (
+				F7F82C732B7B90E500C4D079 /* SnapKit */,
+				F7F82C762B7B90FC00C4D079 /* RxCocoa */,
+				F7F82C782B7B90FC00C4D079 /* RxSwift */,
+			);
 			productName = IminProject;
 			productReference = F7F82C3F2B7B90B700C4D079 /* IminProject.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +265,10 @@
 				Base,
 			);
 			mainGroup = F7F82C362B7B90B700C4D079;
+			packageReferences = (
+				F7F82C722B7B90E500C4D079 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				F7F82C752B7B90FC00C4D079 /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
 			productRefGroup = F7F82C402B7B90B700C4D079 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,8 +312,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7F82C7F2B7B91C400C4D079 /* BaseViewController.swift in Sources */,
 				F7F82C472B7B90B700C4D079 /* ViewController.swift in Sources */,
 				F7F82C432B7B90B700C4D079 /* AppDelegate.swift in Sources */,
+				F7F82C7C2B7B918800C4D079 /* StorePromotionPreviewController.swift in Sources */,
+				F7F82C842B7B954400C4D079 /* BaseView.swift in Sources */,
+				F7F82C822B7B952C00C4D079 /* StorePromotionProfleView.swift in Sources */,
+				F7F82C862B7BA51900C4D079 /* PromotionStartButtonView.swift in Sources */,
 				F7F82C452B7B90B700C4D079 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -448,8 +507,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -457,9 +517,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hans.IminProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -476,8 +539,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -485,9 +549,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hans.IminProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -607,6 +674,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F7F82C722B7B90E500C4D079 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.0;
+			};
+		};
+		F7F82C752B7B90FC00C4D079 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F7F82C732B7B90E500C4D079 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F7F82C722B7B90E500C4D079 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		F7F82C762B7B90FC00C4D079 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F7F82C752B7B90FC00C4D079 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		F7F82C782B7B90FC00C4D079 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F7F82C752B7B90FC00C4D079 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F7F82C372B7B90B700C4D079 /* Project object */;
 }
