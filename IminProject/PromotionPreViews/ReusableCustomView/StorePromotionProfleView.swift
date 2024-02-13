@@ -62,7 +62,7 @@ final class StorePromotionProfleView: BaseView {
     }()
     private let detailViewButtonImage = {
         let _view = UIImageView()
-        _view.image = UIImage(systemName: "chevron.right")
+        _view.image = UIImage(named: "ic_arrow_right_12")
         _view.tintColor = .gray
         return _view
     }()
