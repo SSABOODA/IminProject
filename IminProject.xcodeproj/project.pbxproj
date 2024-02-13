@@ -24,6 +24,7 @@
 		F7F82C822B7B952C00C4D079 /* StorePromotionProfleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F82C812B7B952C00C4D079 /* StorePromotionProfleView.swift */; };
 		F7F82C842B7B954400C4D079 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F82C832B7B954400C4D079 /* BaseView.swift */; };
 		F7F82C862B7BA51900C4D079 /* PromotionStartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F82C852B7BA51900C4D079 /* PromotionStartButtonView.swift */; };
+		F7F82C882B7BAB0000C4D079 /* StorePromotionPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F82C872B7BAB0000C4D079 /* StorePromotionPreview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		F7F82C812B7B952C00C4D079 /* StorePromotionProfleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorePromotionProfleView.swift; sourceTree = "<group>"; };
 		F7F82C832B7B954400C4D079 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		F7F82C852B7BA51900C4D079 /* PromotionStartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromotionStartButtonView.swift; sourceTree = "<group>"; };
+		F7F82C872B7BAB0000C4D079 /* StorePromotionPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorePromotionPreview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +152,7 @@
 			children = (
 				F7F82C802B7B950E00C4D079 /* ReusableCustomView */,
 				F7F82C7B2B7B918800C4D079 /* StorePromotionPreviewController.swift */,
+				F7F82C872B7BAB0000C4D079 /* StorePromotionPreview.swift */,
 			);
 			path = PromotionPreViews;
 			sourceTree = "<group>";
@@ -312,6 +315,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7F82C882B7BAB0000C4D079 /* StorePromotionPreview.swift in Sources */,
 				F7F82C7F2B7B91C400C4D079 /* BaseViewController.swift in Sources */,
 				F7F82C472B7B90B700C4D079 /* ViewController.swift in Sources */,
 				F7F82C432B7B90B700C4D079 /* AppDelegate.swift in Sources */,
