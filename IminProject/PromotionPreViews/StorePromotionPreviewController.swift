@@ -19,6 +19,7 @@ final class StorePromotionPreviewController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         print("폴더 이동")
+        print("config")
     }
     
     override func configureHirarchy() {}
